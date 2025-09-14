@@ -1,0 +1,8 @@
+FROM viren070/aiostreams
+
+ENV BASE_URL=https://aiostreams-on-render.onrender.com
+ENV SECRET_KEY=DF3FB0A0F7552899FCF2F6B60FCD8A729B27280FD52C6BDDF6B35C6AFAD7940F
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
